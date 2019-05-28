@@ -1,0 +1,1 @@
+{"crs":{"properties":{"name":"EPSG:3857"},"type":"name"},"features":[{"properties":{"bu_name":"Boddenkamp","gm_name":"Enschede","bu_code":"BU01530008","ogc_id":"92"},"geometry":{"coordinates":[766433.5696,6840851.8086],"type":"Point"},"type":"Feature","id":"fid-7594f3c2_16affdb2dd9_-25fd"}],"type":"FeatureCollection"}

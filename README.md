@@ -30,7 +30,7 @@ A workflow management system defines, manages and executes workflow through the 
 WorkflowApp is used to compose a workflow using WPS similar to the process chain implementation.This is then submitted to a workflow engine which executes the process chain to give results that are visualized in the workflow client.
 View the workflow json and results [here](https://github.com/SophiaNM/workflows_assignment/tree/master/assign3_workflowmodel)
 
-![](https://github.com/SophiaNM/workflows_assignment/blob/master/assign3_workflowmodel/process_chain_workflowmodel.JPG)
+![](https://github.com/SophiaNM/workflows_assignment/blob/master/assign3_workflowmodel/process_chain_workflowmodel.JPG)*figure 1: WorkflowApp Implementation*
 
 
 ## Technologies Used

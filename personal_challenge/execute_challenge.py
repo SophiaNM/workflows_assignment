@@ -1,3 +1,14 @@
+'''
+Modified on 2019-05-28
+
+@author: Njeri Murage
+
+execute_challenge.py:
+    access and request neighbourhoods data from Afrialliance WFS
+    load request as a geoJSON object
+    loop through n neighbourhoods to retrieve the name of neighbourhoods and length of streets intersecting with the neighbourhoods
+'''
+
 # WPS Execute Operation
 
 import requests                        # This is a a package that allows to access the web.

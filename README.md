@@ -4,11 +4,11 @@ This is a repository of code used for the Workflow Modelling Assignment practica
 ## Description
 A workflow is the automation of a process, in whole or part, where tasks are assigned and documents and data are passed from one participant to another for action, according to a set of procedural rules. This repository contains code implementation for creating Web Processing Services, Utilizing 3rd Party WPS's and implement Geoprocessing Workflow (GPW) using the process chaining concept and using a Workflow Management System.(WfMS).
 
-## View Assignment 1: WPS
+## Assignment 1: WPS
 The OGC Web Processing Service offers a standardized interface for publishing of geospatial processes, algorithms, and calculations. It offers three key operations for interacting with remote processes which are mainly the GetCapabilities, DescribeProcess and the Execute.
 
 **Task** : Implement a Geoprocessing Function as a WPS. Here I implemented envelope function to retrieve the coordinates of the bounding box of a feature.
-View the complete site [here](https://oneminpitch-sophia.herokuapp.com/)
+View the code implementation [here](https://github.com/SophiaNM/workflows_assignment/tree/master/assign1_wps)
 
 ## View Assignment 2: Process Chaining
 The OGC process chaining is a concept where two or more WPS are combined into a single powerful WPS.
@@ -17,9 +17,10 @@ The OGC process chaining is a concept where two or more WPS are combined into a 
 This is executed using the following WPS functions available in the wpsserver:
 * gs:Centroid
 * gs:BufferFeatureCollection
-* gs:
+* gs:IntersectionFeatureCollection
+* gs:Length
 
-View the complete site [here](https://oneminpitch-sophia.herokuapp.com/)
+View the code implementation [here](https://github.com/SophiaNM/workflows_assignment/tree/master/assign2_processchain)
 
 
 ## View Assignment 3: Workflow Modelling
@@ -27,7 +28,7 @@ A workflow management system defines, manages and executes workflow through the 
 
 **Task** :  Produce a statistics which shows the length of streets within a radius of 1000m from the center of every neighbourhood using WorkflowApp.
 WorkflowApp is used to compose a workflow using WPS similar to the process chain implementation.This is then submitted to a workflow engine which executes the process chain to give results that are visualized in the workflow client.
-View the workflow json implementation and results [here](https://oneminpitch-sophia.herokuapp.com/)
+View the workflow json and results [here](https://github.com/SophiaNM/workflows_assignment/tree/master/assign3_workflowmodel)
 
 
 ## Technologies Used

@@ -17,7 +17,7 @@ def inputs():
 
 def outputs():
     return [
-        ['result', 'envelope feature','The envelope feature that is a bounding box of the original vector','application/text']
+        ['result', 'Envelope feature','The envelope feature extents (xmin,xmax,ymin,ymax) of the bounding box of the original vector','application/text']
     ]
 
 def execute(parameters):
